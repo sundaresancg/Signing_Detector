@@ -15,7 +15,7 @@ Model:
 - Accuracy obtained for the testing data = 95 %
 
 SignClf_preprocessing: 
-- Consists of frame generation from a video.
+- Frame generation from a video.
 - Augmentation, Resizing of images, Conversion of images to Black and White using OpenCV.
 - Generation of Absdiff images.
 
