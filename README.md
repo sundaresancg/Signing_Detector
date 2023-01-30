@@ -16,7 +16,7 @@ Model:
 
 SignClf_preprocessing: 
 - Consists of frame generation from a video.
-- Augmentation, Resizing of images, Conversion of images to Black and White.
+- Augmentation, Resizing of images, Conversion of images to Black and White using OpenCV.
 - Generation of Absdiff images.
 
 SignClf_modelling: 
@@ -24,7 +24,7 @@ SignClf_modelling:
 - A snippet to classify based on the number of white(light) pixels present in the absdiff images.
 
 SignClf_app:
-- Launching the model as an application that runs on a web browser.
+- Launching the model as an application that runs on a web browser using Streamlit.
 - Accesses the camera and detects if the user is signing or not.
 
 
