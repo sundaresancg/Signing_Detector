@@ -17,7 +17,7 @@ Model:
 SignClf_preprocessing: 
 - Consists of frame generation from a video.
 - Augmentation, Resizing of images, Conversion of images to Black and White.
-- Generation od Absdiff images.
+- Generation of Absdiff images.
 
 SignClf_modelling: 
 - CNN Model Architecture, Building, Compilation, Testing.
