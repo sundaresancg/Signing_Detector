@@ -5,7 +5,7 @@ import sklearn
 from tensorflow import keras
 from keras import models
 
-model2 = keras.models.load_model('C:/Users/SUNDARESAN C G\Documents/ML/signing_classifier/signingmodel1.h5')
+model2 = keras.models.load_model('/signing_classifier/signingmodel1.h5')
 
 
 def preprocess(img):
